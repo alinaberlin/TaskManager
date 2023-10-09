@@ -1,2 +1,4 @@
-package org.alina;public class UserInterface {
+package org.alina;
+
+public class UserInterface {
 }
