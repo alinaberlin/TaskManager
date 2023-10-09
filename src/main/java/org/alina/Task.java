@@ -72,4 +72,14 @@ public class Task implements Taskble{
         this.title = title;
 
     }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                ", priority='" + priority + '\'' +
+                ", status='" + status + '\'' +
+                '}';
+    }
 }
